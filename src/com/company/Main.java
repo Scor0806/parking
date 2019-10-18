@@ -2,14 +2,16 @@ package com.company;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.text.SimpleDateFormat;
 import java.util.Scanner;
+import java.util.Date;
 
 public class Main {
 
     public static void main(String[] args) throws FileNotFoundException {
 	// write your code here
         long timeEntered, exitTime, carID;
-        File file = new File("input2.txt");
+        File file = new File("input1.txt");
         Scanner sc = new Scanner(file);
         ParkingLot ParkingLot = new ParkingLot();
         do{
@@ -23,9 +25,10 @@ public class Main {
             ParkingLot.usedSpace++;
             if(ParkingLot.usedSpace <= com.company.ParkingLot.CAPACITY){
                 String strCarID = String.format("Car %d", carID);
+                String strTicketStamp = String.format("Timestamp: %s", car.timeStamp);
                 String strTicketPrice = String.format("Ticket price: %.2f", car.getPrice());
 
-                System.out.println(strCarID + "\t" + strTicketPrice);
+                System.out.println(strCarID + "\t" + strTicketStamp + "\t" + strTicketPrice);
             } else{System.out.println("Sorry, Parking Lot is full...");}
 
         } while(sc.hasNext());
@@ -34,7 +37,7 @@ public class Main {
 class Car{
     long timeEntered, exitTime, carID, allocatedTime;
     double ticketPrice;
-
+    String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
     Car(){
 
     }
