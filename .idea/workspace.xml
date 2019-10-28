@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a103306-97d9-4e2f-82fc-baa1410f8282" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="0a103306-97d9-4e2f-82fc-baa1410f8282" name="Default Changelist" comment="Added Parking Lot Group Structure and Maven">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ParkingLot/ParkingLot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ParkingLot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/parking/com/company/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parking/com/company/Car.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/parking/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parking/com/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/parking/com/company/ParkingLot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parking/com/company/ParkingLot.class" afterDir="false" />
@@ -23,6 +26,9 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -76,10 +82,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Parking Lot Group Structure and Maven" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Parking Lot Group Structure and Maven" />
   </component>
 </project>
